@@ -1,0 +1,1 @@
+cmd_/home/debian/gpio_led_blink/Module.symvers := sed 's/ko$$/o/' /home/debian/gpio_led_blink/modules.order | scripts/mod/modpost -m    -o /home/debian/gpio_led_blink/Module.symvers -e -i Module.symvers   -T -

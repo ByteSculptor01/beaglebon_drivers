@@ -1,0 +1,1 @@
+cmd_/home/debian/uart_driver/uart_driver.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/debian/uart_driver/uart_driver.ko /home/debian/uart_driver/uart_driver.o /home/debian/uart_driver/uart_driver.mod.o;  true
