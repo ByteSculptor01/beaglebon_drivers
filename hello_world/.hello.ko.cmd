@@ -1,0 +1,1 @@
+cmd_/home/debian/hello_world/hello.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/debian/hello_world/hello.ko /home/debian/hello_world/hello.o /home/debian/hello_world/hello.mod.o;  true

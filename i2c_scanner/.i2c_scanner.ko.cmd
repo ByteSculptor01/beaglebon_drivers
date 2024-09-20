@@ -1,0 +1,1 @@
+cmd_/home/debian/i2c_scanner/i2c_scanner.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/debian/i2c_scanner/i2c_scanner.ko /home/debian/i2c_scanner/i2c_scanner.o /home/debian/i2c_scanner/i2c_scanner.mod.o;  true

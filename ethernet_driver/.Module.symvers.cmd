@@ -1,0 +1,1 @@
+cmd_/home/debian/ethernet_driver/Module.symvers := sed 's/ko$$/o/' /home/debian/ethernet_driver/modules.order | scripts/mod/modpost -m    -o /home/debian/ethernet_driver/Module.symvers -e -i Module.symvers   -T -

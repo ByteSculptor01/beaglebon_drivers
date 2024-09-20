@@ -1,0 +1,1 @@
+cmd_/home/debian/spi_comm/spi_comm.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/debian/spi_comm/spi_comm.ko /home/debian/spi_comm/spi_comm.o /home/debian/spi_comm/spi_comm.mod.o;  true
