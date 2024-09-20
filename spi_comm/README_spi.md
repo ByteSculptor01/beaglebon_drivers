@@ -48,12 +48,12 @@ spi_Comm/
 
 1. **Insert the kernel module**:
    ```bash
-   sudo insmod spi_Comm.ko
+   sudo insmod spi_comm.ko
    ```
 
 2. **Verify that the module has been loaded**:
    ```bash
-   lsmod | grep spi_Comm
+   lsmod | grep spi_comm
    ```
 
 3. **Check the kernel log** for messages related to the driver:
@@ -70,7 +70,7 @@ spi_Comm/
 
 1. **Remove the kernel module**:
    ```bash
-   sudo rmmod spi_Comm
+   sudo rmmod spi_comm
    ```
 
 2. **Clean up the build files**:
@@ -80,7 +80,7 @@ spi_Comm/
 
 ## File Descriptions
 
-- **spi_Comm.c**: The main source file containing the SPI communication driver code.
+- **spi_comm.c**: The main source file containing the SPI communication driver code.
 - **Makefile**: A makefile to build the kernel module.
 - **README.md**: This README file explaining how to use the driver.
 
