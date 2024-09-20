@@ -49,12 +49,12 @@ gpio_led_blink/
 
 1. **Insert the kernel module**:
    ```bash
-   sudo insmod gpio_led_blink.ko
+   sudo insmod gpio_led.ko
    ```
 
 2. **Verify that the module has been loaded**:
    ```bash
-   lsmod | grep gpio_led_blink
+   lsmod | grep gpio_led
    ```
 
 3. **Check the kernel log** for messages related to the driver:
@@ -70,7 +70,7 @@ Once the module is loaded, the LED will start blinking at the predefined rate. Y
 
 1. **Remove the kernel module**:
    ```bash
-   sudo rmmod gpio_led_blink
+   sudo rmmod gpio_led
    ```
 
 2. **Clean up the build files**:
